@@ -1,0 +1,172 @@
+#bloc_page {
+    width: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+/* header */
+
+header {
+    flex-direction: column;
+}
+
+header img {
+    height: 100px;
+}
+
+.header_logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    flex: 1 1 0;
+}
+
+nav li a {
+    justify-content:space-around;
+    padding: 15px;
+    border-bottom: 3px solid #d9d9d9;
+}
+
+nav li a:hover {
+    border-bottom: 3px solid #0065FC;
+    border-top: 0;
+}
+
+/* selection */
+
+#selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+
+}
+
+/* Search_bar */
+
+button.icon {
+    display: none;
+    
+}
+
+#input_tablette {
+    width: 350px;
+}
+
+.button_submit:hover {
+    background-color: #d9d9d9;
+}
+
+/* Filters */
+
+#filters {
+    align-items: center;
+}
+
+.list_filters {
+    flex-direction: column;
+}
+
+/* palces */
+
+h4 {
+    line-height: 12px;
+}
+
+#places {
+    flex-direction: column;
+}
+
+/* proposition*/
+
+.card_body_proposition >* {
+    margin-bottom: 10px;
+}
+
+/* popularity */
+
+#popularity {
+    flex-basis: 25%;
+}
+
+#home_all_items_popularity {
+    justify-content: space-between;
+}
+
+.card_popularity {
+    border-radius: 10%;
+    width: 275px;
+    height: 155px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 0 5px 20px #999;
+    padding: 5px;
+}
+
+.card_image_popularity img {
+    width: 115px ;
+    height: 151px;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+    margin-right: 7px;
+}
+
+.card_name h4 {
+    line-height: 19px;
+    font-size: 15px;
+}
+
+.card_price p {
+    line-height: 13px;
+}
+
+.card_body_popularity .card_notation {
+    margin-top: 35px;
+}
+
+/* activity */ 
+
+#home_all_cards_activity {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.card_activity:nth-child(n) {
+    width: 250px;
+    height: 150px;
+    margin-bottom: unset;
+    margin: 25px;
+    flex-grow: 0;
+}
+
+.card_image_activity_1,
+.card_image_activity_2,
+.card_image_activity_3,
+.card_image_activity_4,
+.card_image_activity_5,
+.card_image_activity_6 {
+    height: 75%;
+}
+
+.img_card_activity {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 40%;
+    object-fit: cover;
+}
